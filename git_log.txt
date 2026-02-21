@@ -1,0 +1,5 @@
+commit f06b8aed32f1d80f2e6eec5d684395c4aad23b21
+Author: Uzef008 <uzefzardoz@gmail.com>
+Date:   Sat Feb 21 19:35:27 2026 +0530
+
+    Replace in-code Hugging Face token with process.env.HF_API_KEY

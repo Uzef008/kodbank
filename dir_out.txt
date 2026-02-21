@@ -1,0 +1,8 @@
+ Volume in drive C has no label.
+ Volume Serial Number is F212-5E51
+
+ Directory of C:\Users\HP\Desktop\python\kodbank\server
+
+02/21/2026  07:34 PM             6,817 server.js
+               1 File(s)          6,817 bytes
+               0 Dir(s)   6,396,108,800 bytes free

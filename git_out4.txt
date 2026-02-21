@@ -1,0 +1,21 @@
+On branch main
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	new file:   .env.example
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	dir_out.txt
+	filter_branch.txt
+	filter_repo.txt
+	git_add.txt
+	git_commit_out.txt
+	git_log.txt
+	git_out3.txt
+	git_out4.txt
+	git_status.txt
+	git_status2.txt
+	gitignore_out.txt
+	java_version.txt
+	start.bat
+
