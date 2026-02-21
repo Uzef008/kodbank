@@ -1,0 +1,41 @@
+{"level":"WARN","timestamp":"2026-02-21T06:11:21.968Z","logger":"kafkajs","message":"KafkaJS v2.0.0 switched default partitioner. To retain the same partitioning behavior as in previous versions, create the producer with the option \"createPartitioner: Partitioners.LegacyPartitioner\". See the migration guide at https://kafka.js.org/docs/migration-guide-v2.0.0#producer-new-default-partitioner for details. Silence this warning by setting the environment variable \"KAFKAJS_NO_PARTITIONER_WARNING=1\""}
+Server is running on http://localhost:5000
+{"level":"ERROR","timestamp":"2026-02-21T06:11:22.991Z","logger":"kafkajs","message":"[Connection] Connection timeout","broker":"kafka-3a844d58-uzefzardoz-9c0f.j.aivencloud.com:17341","clientId":"kodbank-app"}
+{"level":"ERROR","timestamp":"2026-02-21T06:11:22.994Z","logger":"kafkajs","message":"[BrokerPool] Failed to connect to seed broker, trying another broker from the list: Connection timeout","retryCount":0,"retryTime":287}
+{"level":"ERROR","timestamp":"2026-02-21T06:11:23.642Z","logger":"kafkajs","message":"[Connection] Connection error: Client network socket disconnected before secure TLS connection was established","broker":"kafka-3a844d58-uzefzardoz-9c0f.j.aivencloud.com:17341","clientId":"kodbank-app","stack":"Error: Client network socket disconnected before secure TLS connection was established\n    at TLSSocket.onConnectEnd (node:_tls_wrap:1732:19)\n    at TLSSocket.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)"}
+{"level":"ERROR","timestamp":"2026-02-21T06:11:24.290Z","logger":"kafkajs","message":"[Connection] Connection timeout","broker":"kafka-3a844d58-uzefzardoz-9c0f.j.aivencloud.com:17341","clientId":"kodbank-app"}
+{"level":"ERROR","timestamp":"2026-02-21T06:11:24.292Z","logger":"kafkajs","message":"[BrokerPool] Failed to connect to seed broker, trying another broker from the list: Connection timeout","retryCount":1,"retryTime":656}
+{"level":"ERROR","timestamp":"2026-02-21T06:11:24.741Z","logger":"kafkajs","message":"[Connection] Connection error: Client network socket disconnected before secure TLS connection was established","broker":"kafka-3a844d58-uzefzardoz-9c0f.j.aivencloud.com:17341","clientId":"kodbank-app","stack":"Error: Client network socket disconnected before secure TLS connection was established\n    at TLSSocket.onConnectEnd (node:_tls_wrap:1732:19)\n    at TLSSocket.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)"}
+{"level":"ERROR","timestamp":"2026-02-21T06:11:25.968Z","logger":"kafkajs","message":"[Connection] Connection timeout","broker":"kafka-3a844d58-uzefzardoz-9c0f.j.aivencloud.com:17341","clientId":"kodbank-app"}
+{"level":"ERROR","timestamp":"2026-02-21T06:11:25.970Z","logger":"kafkajs","message":"[BrokerPool] Failed to connect to seed broker, trying another broker from the list: Connection timeout","retryCount":2,"retryTime":1428}
+{"level":"ERROR","timestamp":"2026-02-21T06:11:28.406Z","logger":"kafkajs","message":"[Connection] Connection timeout","broker":"kafka-3a844d58-uzefzardoz-9c0f.j.aivencloud.com:17341","clientId":"kodbank-app"}
+{"level":"ERROR","timestamp":"2026-02-21T06:11:28.408Z","logger":"kafkajs","message":"[BrokerPool] Failed to connect to seed broker, trying another broker from the list: Connection timeout","retryCount":3,"retryTime":3408}
+{"level":"ERROR","timestamp":"2026-02-21T06:11:29.443Z","logger":"kafkajs","message":"[Connection] Connection error: Client network socket disconnected before secure TLS connection was established","broker":"kafka-3a844d58-uzefzardoz-9c0f.j.aivencloud.com:17341","clientId":"kodbank-app","stack":"Error: Client network socket disconnected before secure TLS connection was established\n    at TLSSocket.onConnectEnd (node:_tls_wrap:1732:19)\n    at TLSSocket.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)"}
+{"level":"ERROR","timestamp":"2026-02-21T06:11:29.851Z","logger":"kafkajs","message":"[Connection] Connection error: Client network socket disconnected before secure TLS connection was established","broker":"kafka-3a844d58-uzefzardoz-9c0f.j.aivencloud.com:17341","clientId":"kodbank-app","stack":"Error: Client network socket disconnected before secure TLS connection was established\n    at TLSSocket.onConnectEnd (node:_tls_wrap:1732:19)\n    at TLSSocket.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)"}
+{"level":"ERROR","timestamp":"2026-02-21T06:11:32.831Z","logger":"kafkajs","message":"[Connection] Connection timeout","broker":"kafka-3a844d58-uzefzardoz-9c0f.j.aivencloud.com:17341","clientId":"kodbank-app"}
+{"level":"ERROR","timestamp":"2026-02-21T06:11:32.833Z","logger":"kafkajs","message":"[BrokerPool] Failed to connect to seed broker, trying another broker from the list: Connection timeout","retryCount":4,"retryTime":6782}
+{"level":"ERROR","timestamp":"2026-02-21T06:11:33.330Z","logger":"kafkajs","message":"[Connection] Connection error: Client network socket disconnected before secure TLS connection was established","broker":"kafka-3a844d58-uzefzardoz-9c0f.j.aivencloud.com:17341","clientId":"kodbank-app","stack":"Error: Client network socket disconnected before secure TLS connection was established\n    at TLSSocket.onConnectEnd (node:_tls_wrap:1732:19)\n    at TLSSocket.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)"}
+{"level":"ERROR","timestamp":"2026-02-21T06:11:40.635Z","logger":"kafkajs","message":"[Connection] Connection timeout","broker":"kafka-3a844d58-uzefzardoz-9c0f.j.aivencloud.com:17341","clientId":"kodbank-app"}
+{"level":"ERROR","timestamp":"2026-02-21T06:11:40.636Z","logger":"kafkajs","message":"[BrokerPool] Failed to connect to seed broker, trying another broker from the list: Connection timeout","retryCount":5,"retryTime":12644}
+Kafka connection error KafkaJSNonRetriableError
+  Caused by: KafkaJSConnectionError: Connection timeout
+    at Timeout.onTimeout [as _onTimeout] (C:\Users\HP\Desktop\python\kodbank\server\node_modules\kafkajs\src\network\connection.js:223:23)
+    at listOnTimeout (node:internal/timers:588:17)
+    at process.processTimers (node:internal/timers:523:7) {
+  name: 'KafkaJSNumberOfRetriesExceeded',
+  retriable: false,
+  helpUrl: undefined,
+  retryCount: 5,
+  retryTime: 12644,
+  [cause]: KafkaJSConnectionError: Connection timeout
+      at Timeout.onTimeout [as _onTimeout] (C:\Users\HP\Desktop\python\kodbank\server\node_modules\kafkajs\src\network\connection.js:223:23)
+      at listOnTimeout (node:internal/timers:588:17)
+      at process.processTimers (node:internal/timers:523:7) {
+    retriable: true,
+    helpUrl: undefined,
+    broker: 'kafka-3a844d58-uzefzardoz-9c0f.j.aivencloud.com:17341',
+    code: undefined,
+    [cause]: undefined
+  }
+}
+{"level":"ERROR","timestamp":"2026-02-21T06:11:41.135Z","logger":"kafkajs","message":"[Connection] Connection error: Client network socket disconnected before secure TLS connection was established","broker":"kafka-3a844d58-uzefzardoz-9c0f.j.aivencloud.com:17341","clientId":"kodbank-app","stack":"Error: Client network socket disconnected before secure TLS connection was established\n    at TLSSocket.onConnectEnd (node:_tls_wrap:1732:19)\n    at TLSSocket.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)"}

@@ -1,0 +1,4 @@
+Server is running on http://localhost:5000
+Kafka Producer connected
+Kafka Consumer connected
+{"level":"INFO","timestamp":"2026-02-21T10:55:00.420Z","logger":"kafkajs","message":"[Consumer] Starting","groupId":"kodbank-group"}

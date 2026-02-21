@@ -1,0 +1,22 @@
+{"level":"WARN","timestamp":"2026-02-21T06:12:42.236Z","logger":"kafkajs","message":"KafkaJS v2.0.0 switched default partitioner. To retain the same partitioning behavior as in previous versions, create the producer with the option \"createPartitioner: Partitioners.LegacyPartitioner\". See the migration guide at https://kafka.js.org/docs/migration-guide-v2.0.0#producer-new-default-partitioner for details. Silence this warning by setting the environment variable \"KAFKAJS_NO_PARTITIONER_WARNING=1\""}
+Server is running on http://localhost:5000
+Kafka Producer connected
+Kafka Consumer connected
+{"level":"ERROR","timestamp":"2026-02-21T06:12:47.130Z","logger":"kafkajs","message":"[Connection] Response Metadata(key: 3, version: 6)","broker":"kafka-3a844d58-uzefzardoz-9c0f.j.aivencloud.com:17341","clientId":"kodbank-app","error":"This server does not host this topic-partition","correlationId":1,"size":141}
+Kafka connection error KafkaJSProtocolError: This server does not host this topic-partition
+    at createErrorFromCode (C:\Users\HP\Desktop\python\kodbank\server\node_modules\kafkajs\src\protocol\error.js:581:10)
+    at Object.parse (C:\Users\HP\Desktop\python\kodbank\server\node_modules\kafkajs\src\protocol\requests\metadata\v0\response.js:55:11)
+    at Connection.send (C:\Users\HP\Desktop\python\kodbank\server\node_modules\kafkajs\src\network\connection.js:433:35)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async [private:Broker:sendRequest] (C:\Users\HP\Desktop\python\kodbank\server\node_modules\kafkajs\src\broker\index.js:904:14)
+    at async Broker.metadata (C:\Users\HP\Desktop\python\kodbank\server\node_modules\kafkajs\src\broker\index.js:177:12)
+    at async C:\Users\HP\Desktop\python\kodbank\server\node_modules\kafkajs\src\cluster\brokerPool.js:158:25
+    at async C:\Users\HP\Desktop\python\kodbank\server\node_modules\kafkajs\src\cluster\index.js:111:14
+    at async Cluster.refreshMetadata (C:\Users\HP\Desktop\python\kodbank\server\node_modules\kafkajs\src\cluster\index.js:172:5)
+    at async Cluster.addMultipleTargetTopics (C:\Users\HP\Desktop\python\kodbank\server\node_modules\kafkajs\src\cluster\index.js:230:11) {
+  retriable: true,
+  helpUrl: undefined,
+  type: 'UNKNOWN_TOPIC_OR_PARTITION',
+  code: 3,
+  [cause]: undefined
+}

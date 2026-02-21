@@ -1,0 +1,11 @@
+[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚡️ secrets for agents: https://dotenvx.com/as2
+Server is running on http://localhost:5000
+Database connection or initialization failed: Error: connect ETIMEDOUT
+    at PoolConnection._handleTimeoutError (C:\Users\HP\Desktop\python\kodbank\server\node_modules\mysql2\lib\base\connection.js:200:17)
+    at listOnTimeout (node:internal/timers:588:17)
+    at process.processTimers (node:internal/timers:523:7) {
+  errorno: 'ETIMEDOUT',
+  code: 'ETIMEDOUT',
+  syscall: 'connect',
+  fatal: true
+}
