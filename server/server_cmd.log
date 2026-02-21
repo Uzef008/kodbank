@@ -1,0 +1,8 @@
+{"level":"WARN","timestamp":"2026-02-21T13:47:36.184Z","logger":"kafkajs","message":"KafkaJS v2.0.0 switched default partitioner. To retain the same partitioning behavior as in previous versions, create the producer with the option \"createPartitioner: Partitioners.LegacyPartitioner\". See the migration guide at https://kafka.js.org/docs/migration-guide-v2.0.0#producer-new-default-partitioner for details. Silence this warning by setting the environment variable \"KAFKAJS_NO_PARTITIONER_WARNING=1\""}
+Server is running on http://localhost:5000
+{"level":"ERROR","timestamp":"2026-02-21T13:47:39.795Z","logger":"kafkajs","message":"[Connection] Response CreateTopics(key: 19, version: 3)","broker":"165.227.186.217:17341","clientId":"kodbank-app","error":"Topic creation errors","correlationId":0,"size":128}
+Kafka Producer connected
+Kafka Consumer connected
+{"level":"INFO","timestamp":"2026-02-21T13:47:44.829Z","logger":"kafkajs","message":"[Consumer] Starting","groupId":"kodbank-group"}
+{"level":"INFO","timestamp":"2026-02-21T13:47:49.829Z","logger":"kafkajs","message":"[ConsumerGroup] Consumer has joined the group","groupId":"kodbank-group","memberId":"kodbank-app-73202467-b974-4689-8361-a06dee040c1f","leaderId":"kodbank-app-73202467-b974-4689-8361-a06dee040c1f","isLeader":true,"memberAssignment":{"koduser_topic":[0],"usertoken_topic":[0]},"groupProtocol":"RoundRobinAssigner","duration":4998}
+^C
