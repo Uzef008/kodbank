@@ -1,3 +1,8 @@
+require('dotenv').config({ path: require('path').resolve(__dirname, '.env') });
+if (!process.env.HF_API_KEY) {
+    console.warn("⚠️ Warning: HF_API_KEY not found. Check your .env or deployment secrets.");
+}
+
 const express = require('express');
 const cors = require('cors');
 const bcrypt = require('bcryptjs');
@@ -5,6 +10,7 @@ const jwt = require('jsonwebtoken');
 const cookieParser = require('cookie-parser');
 const axios = require('axios');
 const { producer, db } = require('./db');
+
 
 const app = express();
 const PORT = 5000;
