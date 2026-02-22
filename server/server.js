@@ -13,7 +13,7 @@ const { producer, db } = require('./db');
 
 
 const app = express();
-const PORT = 5000;
+const PORT = process.env.PORT || 10000;
 const SECRET_KEY = 'kodbank_super_secret_key_123'; // Hardcoded for simplicity
 
 // Middleware
@@ -37,6 +37,10 @@ const produceMessage = async (topic, message) => {
 }
 
 // Routes
+app.get('/', (req, res) => {
+    res.status(200).send('Server running successfully');
+});
+
 app.post('/api/register', async (req, res) => {
     try {
         const { uid, username, password, email, phone, role = 'Customer' } = req.body;
